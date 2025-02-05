@@ -243,3 +243,76 @@ ul li.playing{
   pointer-events: none;
   color: var(--violet);
 }
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 95%;
+    padding: 20px;
+    margin: 50px 0;
+  }
+
+  .img-area {
+    height: 220px;
+  }
+
+  .song-details .name {
+    font-size: 19px;
+  }
+
+  .song-details .artist {
+    font-size: 16px;
+  }
+
+  .progress-area {
+    height: 5px;
+  }
+
+  .progress-area .song-timer span {
+    font-size: 12px;
+  }
+
+  .controls i {
+    font-size: 26px;
+  }
+
+  .controls #prev,
+  .controls #next {
+    font-size: 38px;
+  }
+
+  .controls .play-pause {
+    height: 50px;
+    width: 50px;
+  }
+
+  .controls .play-pause i {
+    height: 38px;
+    width: 38px;
+  }
+
+  .music-list {
+    padding: 15px 25px;
+    width: 100%;
+  }
+
+  .music-list .header .row {
+    font-size: 18px;
+  }
+
+  .music-list ul li {
+    font-size: 15px;
+  }
+
+  .music-list ul li .row span {
+    font-size: 14px;
+  }
+
+  .music-list ul li .audio-duration {
+    font-size: 14px;
+  }
+
+  .music-list ul li.playing {
+    font-size: 16px;
+  }
+}
