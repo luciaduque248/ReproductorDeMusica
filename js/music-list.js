@@ -35,5 +35,22 @@ let allMusic = [
     img: "music-6",
     src: "music-6"
   },
-
+  {
+    name: "Waiting for Love",
+    artist: "Avicii",
+    img: "music-7",
+    src: "music-7"
+  },
+  {
+    name: "I Hate Everything About You",
+    artist: "Three Days Grace",
+    img: "music-8",
+    src: "music-8"
+  },
+  {
+    name: "Ashes",
+    artist: "Stellar",
+    img: "music-9",
+    src: "music-9"
+  },
 ];
